@@ -61,64 +61,62 @@
         </div>
     </div>
     <!-- Photos-->
-    <div class="bgimg-3 third-section" id="photos">
-        <h3 class="third-title">OPEN TRIP DETAILS</h3>
-    </div>
+    <div class="photo-section" id="photos">
+        <div class="bgimg-3 third-section">
+            <h3 class="third-title">OPEN TRIP DETAILS</h3>
+        </div>
 
-    <div class="photo-container">
-        <img src="/assets/img1.png" alt="Tokyo Station"
-            onclick="openPhotoModal(this)">
-        <img src="/assets/img2.png" alt="Hakone Railway"
-            onclick="openPhotoModal(this)">
-        <img src="/assets/img3.png" alt="Kiyomizu Temple" 
-            onclick="openPhotoModal(this)">
-        <img src="/assets/img4.png" alt="Naro Park"
-            onclick="openPhotoModal(this)">
-        <img src="/assets/img5.png" alt="Osaka Malls" 
-            onclick="openPhotoModal(this)">
-        <img src="/assets/img6.png" alt="Kindergarten Bus"
-            onclick="openPhotoModal(this)">
-    </div>
+        <div class="photo-container">
+            <img src="/assets/img1.png" alt="Tokyo Station" onclick="openPhotoModal(this)">
+            <img src="/assets/img2.png" alt="Hakone Railway" onclick="openPhotoModal(this)">
+            <img src="/assets/img3.png" alt="Kiyomizu Temple" onclick="openPhotoModal(this)">
+            <img src="/assets/img4.png" alt="Naro Park" onclick="openPhotoModal(this)">
+            <img src="/assets/img5.png" alt="Osaka Malls" onclick="openPhotoModal(this)">
+            <img src="/assets/img6.png" alt="Kindergarten Bus" onclick="openPhotoModal(this)">
+        </div>
 
-    <!-- Modal for Photos -->
-    <div id="photoModal" class="modal">
-        <div class="modal-content">
-            <span class="closeModal" onclick="closePhotoModal()">&times;</span>
-            <p id="modal-caption"></p>
-            <img id="modal-img" class="modal-img" alt="">
-            
+        <!-- Modal for Photos -->
+        <div id="photoModal" class="modal">
+            <div class="modal-content">
+                <span class="closeModal" onclick="closePhotoModal()">&times;</span>
+                <p id="modal-caption"></p>
+                <img id="modal-img" class="modal-img" alt="">
+
+            </div>
         </div>
     </div>
 
     <!-- Video -->
     <div class="food" id="videoSection">
         <h3 class="fourth-title">MY YUMMY JOURNEY</h3>
-        <video id="myvideo" autoplay controls muted>
+        <video id="myvideo" autoplay muted loop playsinline>
             <source src="assets/food.MP4" type="video/MP4">
         </video>
     </div>
 
     <!-- About me -->
-    <div class="bgimg-4" id="about">
-        <h3 class="about">ABOUT</h3>
-        <h3 class="me">ME</h3>
+    <div class="about-section" id="about">
+        <div class="bgimg-4">
+            <h3 class="about">ABOUT</h3>
+            <h3 class="me">ME</h3>
+        </div>
+        <div class="content-aboutme">
+            <p>Master’s student in Computer Science at the University of Illinois Urbana-Champaign. My
+                interests lie in front-
+                and back-end development, with a focus on designing user-friendly software and applications that improve
+                people’s lives, promote sustain ability, and make technology more accessible.</p>
+            <p>I’m a bit of a mischievous soul who loves making silly faces and finding joy in the little things. One of
+                my
+                longest-running obsessions is Maplestory that I’ve been happily lost in that world for over ten years.
+                Outside of
+                gaming, I’m pretty normal. I enjoy watching movies, especially comedies and romantic ones, and I’m a big
+                fan of
+                Japanese anime. Light music helps me unwind, and I love spending time in nature, where everything feels
+                peaceful
+                and balanced. There’s something truly special about being surrounded by calm and beauty.</p>
+        </div>
     </div>
-    <div class="content-aboutme">
-        <p>Master’s student in Computer Science at the University of Illinois Urbana-Champaign. My
-            interests lie in front-
-            and back-end development, with a focus on designing user-friendly software and applications that improve
-            people’s lives, promote sustain ability, and make technology more accessible.</p>
-        <p>I’m a bit of a mischievous soul who loves making silly faces and finding joy in the little things. One of
-            my
-            longest-running obsessions is Maplestory that I’ve been happily lost in that world for over ten years.
-            Outside of
-            gaming, I’m pretty normal. I enjoy watching movies, especially comedies and romantic ones, and I’m a big
-            fan of
-            Japanese anime. Light music helps me unwind, and I love spending time in nature, where everything feels
-            peaceful
-            and balanced. There’s something truly special about being surrounded by calm and beauty.</p>
-    </div>
-
+    
     <footer class="contact">
         <a href="index.html" class="button"><i class="fa fa-arrow-up"></i>To the top</a>
         <div class="link">

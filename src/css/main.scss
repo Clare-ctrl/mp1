@@ -215,6 +215,11 @@ h1, h3 {
 /* =======================
    Photos Section
 ======================= */
+.photo-section {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
 .bgimg-3 {
   background-image: url('/assets/img0.png');
   min-height: 400px;
@@ -245,11 +250,13 @@ h1, h3 {
 
 /* Photo Grid*/
 .photo-container {
-  margin: 32px 20px 20px;
+  margin: 32px auto 0;
   display: grid;
   justify-content: center;
   grid-template-columns: 300px 300px 300px;
   gap: 24px;
+  max-width: 1000px;
+  width: 100%;
 }
 
 .photo-container img {
@@ -356,13 +363,16 @@ h1, h3 {
 /* =======================
    About Section
 ======================= */
+.about-section {
+  scroll-margin-top: 80px;
+  margin-top: 40px;
+}
+
 .bgimg-4 {
   background-image: url('/assets/self5.jpg');
   min-height: 400px;
   position: relative;
   opacity: 0.8;
-  margin-top: 40px;
-  scroll-margin-top: 80px;
 }
 
 .bgimg-4 .about {

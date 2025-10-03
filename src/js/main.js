@@ -27,9 +27,11 @@ window.addEventListener("scroll", () => {
   const navLinks = document.querySelectorAll("#my-bar a");
 
   let current = "";
+  const middle = window.innerHeight / 2;
+
   sections.forEach((section) => {
     const rect = section.getBoundingClientRect();
-    if (rect.top <= 80 && rect.bottom >= 120) {
+    if (rect.top <= middle && rect.bottom >= middle) {
       current = section.getAttribute("id");
     }
   });
@@ -88,7 +90,7 @@ function showSlides() {
 }
 
 // Auto-play
-setInterval(() => { changeSlide(1); }, 2000);
+//setInterval(() => { changeSlide(1); }, 2000);
 
 // Video play
 document.addEventListener('DOMContentLoaded', (event) => {
